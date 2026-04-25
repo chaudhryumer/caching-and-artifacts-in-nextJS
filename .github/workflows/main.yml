@@ -12,7 +12,7 @@ jobs:
      - name: checkout repos
        uses: actions/checkout@v6.0.2
      - name: setup nodeJS
-       uses: actions/setup-node@v6.4.0
+       uses: actions/setup-node@v4.2.0
        with:
          node-version: 22.x
          cache: 'npm'
